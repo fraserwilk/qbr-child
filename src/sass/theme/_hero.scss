@@ -1,0 +1,96 @@
+.hero-col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-block: 3rem;
+    padding-inline: 2rem;
+}
+
+.hero-topper {
+    background-color: $blue;
+    color: $white;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 2rem;
+    max-width: 30ch;
+}
+
+h1.hero-title {
+    padding-block: 1.5rem;
+    font-size: clamp(2.5rem, 2vw + 2rem, 6rem);
+    font-weight: 700;
+    line-height: 120%;
+
+    .blue {
+        color: $blue;
+    }
+
+    .red {
+        color: $red;
+    }
+}
+
+.hero-text {
+    font-size: 1.2rem;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    margin-block: 1rem;
+    flex-wrap: wrap;
+
+    .btn {
+        background-color: $primary;
+        color: $white;
+        font-size: 1.2rem;
+
+        &.solid {
+        
+            &:hover {
+                background-color: $gray-300;
+                color: $primary;
+                }
+        }
+
+        &.outline {
+            border: 2px solid $secondary;
+            color: $secondary;
+            background-color: transparent;
+            
+            &:hover {
+                background-color: $gray-300;
+            }
+        }
+    }
+}
+
+.hero-card {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    .card {
+        padding: 0.5rem clamp(0.1rem, 1vw, 2rem);
+
+        &:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-card-title {
+            font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+            font-weight: 600;
+            margin-bottom: 0rem;
+            color: $primary;
+        }
+        .hero-card-text {
+            font-size: clamp( 0.8rem, 2.5vw, 1rem);
+            font-weight: 400;
+        }
+    }
+}
+

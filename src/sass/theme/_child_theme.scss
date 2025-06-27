@@ -1,0 +1,28 @@
+.navbar {
+    box-shadow: #959da533 0 8px 24px;
+}
+
+// header menu
+#main-menu {
+    li a.nav-link {
+        font-size: larger;
+        color: $black;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $qbr-yellow; // Change the hover color to QBR yellow
+        }
+    }
+}
+
+.navbar-brand img {
+    width: clamp(150px, 2vw, 250px); // Adjust the width of the logo image
+    height: auto; // Maintain aspect ratio
+    object-fit: contain;
+}
+
+#wrapper-footer {
+    background-color: $qbr-blue;
+    color: $white;
+}
