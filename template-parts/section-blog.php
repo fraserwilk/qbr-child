@@ -26,7 +26,7 @@
 
       <!-- Render card -->
       <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="service-block p-4 border rounded h-100 d-flex flex-column justify-content-between">
+        <div class="p-4 border rounded h-100 d-flex flex-column justify-content-between">
           <!-- Topper -->
           <div class="topper mb-4 d-flex align-items-center justify-content-between">
             <?php if ($image): ?>
@@ -39,7 +39,7 @@
           <!-- Content -->
           <div class="content mb-3">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <span class="blog-category text-primary">
+              <span class="blog-category">
                 <?php
                   $categories = get_the_category($post_id);
                   if (!empty($categories)) {
@@ -47,11 +47,8 @@
                   }
                 ?>
               </span>
-              <span class="blog-date text-muted small">
-                <?php echo get_the_date('M j, Y', $post_id); ?>
-              </span>
             </div>
-            <h3 class="blog-title h5 mb-2">
+            <h3 class="blog-title mb-2">
               <a href="<?php echo esc_url($permalink); ?>"><?php echo wp_kses_post( $title ); ?></a>
             </h3>
             <?php if ($excerpt): ?>

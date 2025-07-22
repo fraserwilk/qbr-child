@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-					<footer class="bg-qbr-blue text-light py-1 px-3">
+					<footer class="bg-qbr-blue text-light py-2 px-3">
 						<div class="container">
 							<div class="row g-4 mb-2">
 							
