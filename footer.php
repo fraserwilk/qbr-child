@@ -36,8 +36,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="d-flex align-items-center mb-3">
 									<span class="fs-4 fw-bold text-white">Quality Bicycle Repairs</span>
 								</div>
-								<p class="text-light-50 mb-2">
-								XXXProfessional bicycle repair and maintenance services. Keeping cyclists safe and bikes
+								<p class="text-light-50 mb-3">
+								Professional bicycle repair and maintenance services. Keeping cyclists safe and bikes
 								running smoothly with expert care and precision workmanship.
 								</p>
 								

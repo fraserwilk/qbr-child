@@ -4,7 +4,9 @@
 
 if ($services) : ?>
 
-        <h2 class="row">Bicycle Repair & Maintenance</h2>
+<section class="services py-5">
+  <div class="container">
+<h2>Bicycle Repair & Maintenance</h2>
 <div class="subheading">Our certified technicians provide comprehensive bicycle services using professional-grade tools and premium components to ensure your bike performs at its best.</div>
 <section class="row">
     <?php foreach ($services as $service_post) :
@@ -62,4 +64,6 @@ if ($services) : ?>
       </div>
     <?php endforeach; ?>
   </section>
+  </div>
+</section>
 <?php endif; ?>

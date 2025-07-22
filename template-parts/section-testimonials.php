@@ -1,7 +1,7 @@
 
 <section class="testimonials py-5">
   <div class="container">
-    <h2 class="row">What our Customers Say</h2>
+    <h2>What our Customers Say</h2>
     <div class="subheading">Don't just take our word for it</div>
     <div class="row">
       <?php while (have_rows('testimonials')): the_row();

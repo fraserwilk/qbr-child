@@ -11528,6 +11528,11 @@ a.skip-link:not(:focus):not(:focus-within) {
   object-fit: contain;
 }
 
+.subheading {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
 #wrapper-footer {
   background-color: hsl(203deg, 100%, 38%);
   color: #fff;

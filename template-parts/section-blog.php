@@ -2,8 +2,9 @@
 <?php 
   $blogs = get_sub_field('blogs');
   if ($blogs) : ?>
-
-  <h2 class="row">Latest from Our Blog</h2>
+<section class="blog py-5">
+  <div class="container">
+  <h2>Latest Articles</h2>
   <div class="subheading">Expert tips, maintenance guides, and cycling insights to keep you informed</div>
   <section class="row">
 
@@ -71,5 +72,7 @@
         </div>
       </div>
     <?php endforeach; ?>
+  </section>
+  </div>
   </section>
 <?php endif; ?>

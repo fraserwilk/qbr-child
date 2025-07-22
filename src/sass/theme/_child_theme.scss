@@ -22,6 +22,11 @@
     object-fit: contain;
 }
 
+.subheading {
+    font-size: 1.2rem; // Adjust the font size of the subheading
+    padding-bottom: 1rem;
+}
+
 #wrapper-footer {
     background-color: $qbr-blue;
     color: $white;
