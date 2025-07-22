@@ -54,7 +54,7 @@ if ($services) : ?>
             <?php endif; ?>
             <?php if ($link): ?>
               <div class="service-link">
-                <a class="btn btn-primary" href="<?php echo esc_url($link['url']); ?>" target="<?php echo esc_attr($link['target'] ?: '_self'); ?>">
+                <a class="btn btn-primary text-light" href="<?php echo esc_url($link['url']); ?>" target="<?php echo esc_attr($link['target'] ?: '_self'); ?>">
                   <?php echo esc_html($link['title'] ?: 'Book Now'); ?>
                 </a>
               </div>
