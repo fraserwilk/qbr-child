@@ -14554,6 +14554,32 @@ a.skip-link:not(:focus):not(:focus-within) {
   color: #fff;
 }
 
+.hubtiger {
+  background-color: #fff766;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+.hubtiger a {
+  color: #000;
+  text-decoration: underline;
+}
+.hubtiger a:hover {
+  color: black;
+}
+.hubtiger .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hubtiger .container h2, .hubtiger .container .h2 {
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  margin-bottom: 0.5rem;
+}
+.hubtiger .container .service-btn a {
+  text-decoration: none;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: hsl(215deg, 61%, 49%);

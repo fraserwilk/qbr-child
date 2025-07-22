@@ -1,8 +1,8 @@
 <a id="book"></a>
 <section class="hubtiger py-5">
   <div class="container">
-    <h2 class="row">Book Your Repair</h2>
-    <div class="subheading"> <?php // Centered the div for better button placement ?>
+    <h2>Book Your Repair</h2>
+    <div class="service-btn"> 
 
       <?php 
       // Use the 'Link' field from ACF
