@@ -1,7 +1,7 @@
 <a id="why-choose"></a>
 <section class="why-choose py-5">
   <div class="container">
-    <h2 class="row ">Why Choose CycleFix Pro?</h2>
+    <h2 class="row ">Why Choose Quality Bicycle Repairs?</h2>
     <div class="row">
       <?php while (have_rows('why_choose')): the_row();
           // Ensure the title and benefit are set

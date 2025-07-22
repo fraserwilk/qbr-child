@@ -27,60 +27,23 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-					<footer class="bg-qbr-blue text-light py-5 px-3">
+					<footer class="bg-qbr-blue text-light py-1 px-3">
 						<div class="container">
-							<div class="row g-4 mb-4">
+							<div class="row g-4 mb-2">
 							
 							<!-- Left Section: Logo and Description -->
 							<div class="col-lg-6">
 								<div class="d-flex align-items-center mb-3">
-								<!-- Replace with actual icon -->
-								<i class="bi bi-tools text-danger fs-4 me-2"></i>
-								<span class="fs-4 fw-bold text-white">Quality Bicycle Repairs</span>
+									<span class="fs-4 fw-bold text-white">Quality Bicycle Repairs</span>
 								</div>
-								<p class="text-light-50 mb-4">
+								<p class="text-light-50 mb-2">
 								Professional bicycle repair and maintenance services. Keeping cyclists safe and bikes
 								running smoothly with expert care and precision workmanship.
 								</p>
-								<div class="small">
-								<div class="d-flex align-items-center mb-2">
-									<i class="bi bi-telephone text-danger me-2"></i>
-									<span>(03) 9830 4956</span>
-								</div>
-								<div class="d-flex align-items-center mb-2">
-									<i class="bi bi-envelope text-danger me-2"></i>
-									<span>service@qualitybicyclerepairs.com</span>
-								</div>
-								<div class="d-flex align-items-center">
-									<i class="bi bi-geo-alt text-danger me-2"></i>
-									<span>118 Union Road, Surrey Hills, Victoria</span>
-								</div>
-								</div>
+								
 							</div>
 
-							<!-- Services -->
-							<div class="col-md-6 col-lg-3">
-								<h5 class="text-white fw-semibold mb-3">Services</h5>
-								<ul class="list-unstyled small">
-								<li><a href="#" class="text-light text-decoration-none link-hover">Complete Tune-Up</a></li>
-								<li><a href="#" class="text-light text-decoration-none link-hover">Wheel Service</a></li>
-								<li><a href="#" class="text-light text-decoration-none link-hover">Brake System</a></li>
-								<li><a href="#" class="text-light text-decoration-none link-hover">Drivetrain Service</a></li>
-								<li><a href="#" class="text-light text-decoration-none link-hover">Emergency Repairs</a></li>
-								</ul>
-							</div>
-
-							<!-- Quick Links -->
-							<div class="col-md-6 col-lg-3">
-								<h5 class="text-white fw-semibold mb-3">Quick Links</h5>
-								<ul class="list-unstyled small">
-								<li><a href="#booking" class="text-light text-decoration-none link-hover">Book Service</a></li>
-								<li><a href="#testimonials" class="text-light text-decoration-none link-hover">Customer Reviews</a></li>
-								<li><a href="#blog" class="text-light text-decoration-none link-hover">Maintenance Tips</a></li>
-								<li><a href="#contact" class="text-light text-decoration-none link-hover">Contact Us</a></li>
-								<li><a href="#" class="text-light text-decoration-none link-hover">Service Warranty</a></li>
-								</ul>
-							</div>
+							
 							</div>
 
 							<!-- Bottom Bar -->

@@ -13,6 +13,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 
+// Check if the page is set as the front page and include the hero section.
 if ( is_front_page() ) {
 	get_template_part( 'global-templates/hero' );
 }
