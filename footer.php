@@ -53,9 +53,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 								&copy; <?php echo date('Y'); ?> Quality Bicycle Repairs. Professional bicycle service since 2000.
 								</p>
 								<div class="d-flex gap-4 small">
-								<a href="#" class="text-light text-decoration-none link-hover">Privacy Policy</a>
-								<a href="#" class="text-light text-decoration-none link-hover">Terms of Service</a>
-								<a href="#" class="text-light text-decoration-none link-hover">Service Guarantee</a>
+								<a href="/privacy-policy" class="text-light text-decoration-none link-hover">Privacy Policy</a>
+								<!-- <a href="#" class="text-light text-decoration-none link-hover">Terms of Service</a>
+								<a href="#" class="text-light text-decoration-none link-hover">Service Guarantee</a> -->
 								</div>
 							</div>
 							</div>
