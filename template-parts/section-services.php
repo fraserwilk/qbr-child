@@ -1,4 +1,4 @@
-<a id="services"></a>
+<section id="services"></section>
 <?php 
   $services = get_sub_field('services');
 
@@ -16,12 +16,11 @@ if ($services) : ?>
       $post_id    = $service_post->ID;
       $title      = get_the_title($post_id);
       $permalink  = get_permalink($post_id);
-      $image      = get_the_post_thumbnail($post_id, 'medium');
       $icon       = get_field('icon', $post_id);
       $price      = get_field('price', $post_id);
       $duration   = get_field('duration', $post_id);
       $description = get_field('description', $post_id);
-      $link       = get_field('book_now_link', $post_id);
+      $book_now_link = function_exists('get_field') ? get_field('book_now_link', $post_id) : null;
     ?>
 
       <!-- Render card -->
@@ -52,10 +51,10 @@ if ($services) : ?>
             <?php if ($price): ?>
               <div class="service-price fw-bold mb-2"><?php echo esc_html($price); ?></div>
             <?php endif; ?>
-            <?php if ($link): ?>
+            <?php if ($book_now_link): ?>
               <div class="service-link">
-                <a class="btn btn-primary text-light" href="<?php echo esc_url($link['url']); ?>" target="<?php echo esc_attr($link['target'] ?: '_self'); ?>">
-                  <?php echo esc_html($link['title'] ?: 'Book Now'); ?>
+                <a class="btn btn-primary text-light" href="<?php echo esc_url($book_now_link['url']); ?>" target="<?php echo esc_attr($book_now_link['target'] ?: '_self'); ?>">
+                  <?php echo esc_html($book_now_link['title'] ?: 'Book Now'); ?>
                 </a>
               </div>
             <?php endif; ?>
