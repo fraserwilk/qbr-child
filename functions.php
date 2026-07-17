@@ -40,6 +40,7 @@ function theme_enqueue_styles() {
 	
 	$css_version = $theme_version . '.' . filemtime( get_stylesheet_directory() . $theme_styles );
 
+	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . $theme_styles, array(), $css_version );
 	wp_enqueue_script( 'jquery' );
 	
